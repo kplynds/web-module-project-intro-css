@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 1.5;
 }
 ol, ul {
 	list-style: none;
@@ -107,4 +107,24 @@ header img {
 #container p {
    text-align: center;
    margin: 1rem; 
+}
+
+#icon-section img {
+    display: block;
+    margin: 0 auto;
+    width: 5%;
+    height: 5%
+}
+
+#icon-section p {
+    margin: 0 auto;
+    width: 15%;
+    font-size: .25rem;
+    text-align: center;
+}
+
+footer img {
+    object-fit: cover;
+    height: 15rem;
+    width: 100%;
 }
