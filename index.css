@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -20,8 +21,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+	font-family: 'Chelsea Market', cursive;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -52,4 +52,46 @@ table {
 }
 .top-buttons button {
     margin: 2% 7%;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    font-size: 1rem;
+    padding: .6rem 1.4rem;
+}
+
+#plan {
+    background-color: #FF764E;
+}
+
+#learn {
+    background-color: #5ED3EB;
+}
+
+#get {
+    background-color: #FFCD69;
+}
+
+header img {
+    display: inline-block;
+    width: 20%;
+    border-radius: 50%;
+    margin: 8%;
+    border: 1px solid grey;
+}
+
+.heading .heading-text {
+    display: inline-block;
+    text-align: center;
+    width: 60%;
+    vertical-align: top;
+    margin-top: 10%;
+}
+
+.heading-text h1 {
+    font-size: 3.5rem;
+    margin: 2rem 0;
+}
+
+.heading-text h5 {
+    margin: 2rem 0;
 }
