@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -21,7 +24,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font-family: 'Chelsea Market', cursive;
+	font-family: font-family: 'Roboto Mono', monospace;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -90,6 +93,7 @@ header img {
 .heading-text h1 {
     font-size: 3.5rem;
     margin: 2rem 0;
+    font-family: 'Chelsea Market', cursive;
 }
 
 .heading-text h5 {
@@ -97,7 +101,7 @@ header img {
 }
 
 #container {
-    background-color: #F9E7DC;
+    background-color: #DDB9A3;
     color: white;
     font-size: 1rem;
     padding: .75rem;
@@ -127,4 +131,31 @@ footer img {
     object-fit: cover;
     height: 15rem;
     width: 100%;
+}
+
+#footer-buttons {
+    text-align: center;
+    width: 100%;
+    background-color: #F9E7DC;
+}
+
+footer button {
+    margin: 2% 7%;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    font-size: 1rem;
+    padding: .6rem 1.4rem;
+}
+
+#plan2 {
+    background-color: #FF764E;
+}
+
+#learn2 {
+    background-color: #5ED3EB;
+}
+
+#get2 {
+    background-color: #FFCD69;
 }
